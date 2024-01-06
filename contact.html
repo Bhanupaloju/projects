@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="https://angular.pixelstrap.com/multikart/assets/images/icon/logo.png" alt="" width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="https://i.ibb.co/PNjjx3y/cart.png" alt="" width="30px" height="30px" /></a>
+                <!-- <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" /> -->
+            </div>
+            <div class="row sub-heading">
+                <div class="col-2">
+                    <h1 class="">
+                        Contact Us <br />
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact container">
+        <form action="">
+            <div class="form">
+                <div class="form-txt">
+                    <h1> Contact Us</h1>
+                    <span> As You might expect of a company that began as a high-end interiors contractor, we pay strict attention.</span>
+                    <h3> USA </h3>
+                    <p> 195 E Parker Square Dr, Parker, CO 801<br> +43 986-657-7845</p>
+                    <h3>India</h3>
+                    <p>HW95+C9C, Mhada Colony, Viman Nagar, Pune, Maharashtra<br>411014</p>
+                </div>
+                <div class="form-details">
+                    <input type="text" name="email" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="message" id="message" cols="60" rows="10" placeholder="Message" required></textarea>
+                    <button> SEND MESSAGE</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App </h3>
+                    <p>Download App for Android and Iso mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/KbPTYYQ/play-store.png" alt="">
+                        <img src="https://i.ibb.co/hVM4X2p/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="https://angular.pixelstrap.com/multikart/assets/images/icon/logo.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessibletothe Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li> <br>
+                        <li> Blog Post</li> <br>
+                        <li>Return Policy</li><br>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li> <br>
+                        <li>Twitter</li><br>
+                        <li>Instagram</li><br>
+                        <li>YouTube</li><br>
+                    </ul>
+                </div>
+            </div>
+            <hr/>
+
+        </div>
+
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById('MenuItems');
+        MenuItems.style.maxHeight = '0px';
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == '0px') {
+                MenuItems.style.maxHeight = '200px';
+            } else {
+                MenuItems.style.maxHeight = '0px';
+            }
+        }
+    </script>
+</body>
+
+</html>
