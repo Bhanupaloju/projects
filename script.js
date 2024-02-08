@@ -28,4 +28,4 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
->>>>>>> fe042b7 (Adding new project)
+
